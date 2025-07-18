@@ -3,6 +3,8 @@
 
 Este repositório contém o código-fonte de uma página institucional para a marca NoorSkin.
 
+Você pode acessar também em: https://github.com/Davidnasc233/noorskin-project
+
 ## 🚀 Tecnologias utilizadas
 
 - HTML5
