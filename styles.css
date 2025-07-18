@@ -63,6 +63,11 @@ body, html {
   display: block;
 }
 
+.navbar a:hover {
+  color: #C9C9C9;
+  transition: 0.1s;
+}
+
 /* Banner */
 
 .banner-image {
@@ -169,10 +174,12 @@ span {
 
 .product-value {
   font-size: 16px;
+  width: 75px;
+  height: 25px;
+  padding: 5px 4px 4px 5px;
   font-weight: bold;
   color: #F5F5F5;
   background-color: #BD8457;
-  padding: 6px 14px;
   border-radius: 3px;
   display: inline-block;
   margin-top: 12px;
@@ -183,6 +190,7 @@ span {
 .product-link {
   color: #BD8457;
   font-size: 16px;
+  font-weight: 100;
   padding: 10px 0;
   display: inline-block;
 }
@@ -216,9 +224,63 @@ span {
   grid-template-rows: 1fr 1fr;
 }
 
+
 .coluna {
   flex: 1;
 
+}
+.cupom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.cupom-img img{
+  width: 95px;
+  height: 96px;
+  margin-bottom: 21px;
+}
+
+.desconto {
+  color: #3D3935;
+  width: 224px;
+  margin-bottom: 13px;
+}
+
+.cupom-p {
+  color: #BD8457;
+  font-size: 18px;
+  width: 126px;
+  margin-bottom: 17px;
+  
+}
+
+.cupom-p strong {
+  background-color: #BD8457;
+  color: #f5f5f5;
+  border-radius: 1px;
+  padding: 0 6px;
+}
+
+.desc-link {
+  color: #BD8457;
+}
+
+.product-line {
+  margin-top: 56px;
+  margin-bottom: 30px;
+  color: #3D3935;
+}
+
+.product-name p{
+  color: #3D3935;
+  margin-bottom: 30px;
+}
+
+.coluna img {
+  margin-bottom: 15px;
 }
 
 .grid-img {
@@ -262,4 +324,59 @@ span {
 .group {
   width: 159px;
   height: 54px;
+}
+
+.line-hr {
+  width: 362px;
+  border: none;
+  background-color: #847F7A;
+  height: 1px;
+  margin-top: 32px;
+}
+
+.line-hr2 {
+  width: 362px;
+  border: none;
+  background-color: #847F7A;
+  height: 1px;
+}
+
+.vendas {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 16px auto;
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.vendas li {
+  font-size: 14px;
+  color: #f5f5f5;
+}
+
+.vendas li .bold {
+  font-weight: 100;
+}
+
+.help {
+  margin: 32px 0 16px;
+  color: #F5F5F5;
+}
+
+.contato {
+  color: #F5F5F5;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contato em {
+  font-style: italic;
 }
